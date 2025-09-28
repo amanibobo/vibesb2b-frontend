@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useScroll } from "./ui/scroll-context";
 import Banner from "./Banner";
 import Link from "next/link";
+import VideoPlayer from "./ui/video-player";
 
 export default function Header() {
   const { scrollToDemo } = useScroll();
@@ -13,7 +14,7 @@ export default function Header() {
         <div className="relative h-full w-full bg-[#FAFAFA] flex min-h-screen flex-col pt-14 md:pt-24">
         <div className=" h-full w-full bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
           <main className="flex-1 px-4 sm:px-6 lg:px-[125px]">
-            <section className="w-full py-16 md:py-32 lg:py-32">
+            <section className="w-full py-16 md:py-16 lg:py-24">
               <div className="container mx-auto px-4 md:px-6">
                 <div className="flex flex-col items-center justify-center space-y-8 text-center">
                   <div className="space-y-8">
@@ -49,15 +50,7 @@ export default function Header() {
             </section>
           </main>
           <div className="flex justify-center px-4 sm:px-6 lg:px-[125px] pb-12">
-            <Image
-              src={"/vibeb2b.png"}
-              alt="b"
-              width={1080}
-              height={1080}
-              quality={100}
-              className="rounded-xl border w-full h-auto"
-              priority
-            />
+            <VideoPlayer src="/Untitled.mp4" />
           </div>
         </div>
       </div>
