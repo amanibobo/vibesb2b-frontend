@@ -13,23 +13,22 @@ export default function Header() {
         <div className="relative h-full w-full bg-[#FAFAFA] flex min-h-screen flex-col pt-14 md:pt-24">
         <div className=" h-full w-full bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
           <main className="flex-1 px-4 sm:px-6 lg:px-[125px]">
-            <section className="w-full py-12 md:py-24 lg:py-24">
+            <section className="w-full py-16 md:py-32 lg:py-32">
               <div className="container mx-auto px-4 md:px-6">
-                <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                  <div className="space-y-5">
+                <div className="flex flex-col items-center justify-center space-y-8 text-center">
+                  <div className="space-y-8">
                   <Banner />
-                    <h1 
+                    <h1
                     style={{ fontFamily: "var(--font-pp-editorial-new)" }}
                     className="text-3xl font-ultralight sm:text-4xl md:text-5xl lg:text-6xl">
-                    Transform Your Sales Calls
-                      <br />
-                      with AI Powered Insights
+                   Vibe check the Zoom - 10x revenue
+
                     </h1>
                     <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                    Boosting sales performance with real time emotion analysis, intelligent coaching, and CRM integration to help close more deals.
+                    CV-powered detection of audience reaction to give insightful speaker feedback, increasing the productivity of sales pitches, interviews, meetings, & more.
                     </p>
                   </div>
-                  <div className="flex flex-col gap-3 min-[400px]:flex-row">
+                  <div className="flex flex-col gap-3 min-[400px]:flex-row mt-8">
                     <Link href="/VibeB2B-1.0.0-arm64.dmg" download>
                     <Button className="h-10 gap-2 bg-[#0ea5e9] hover:bg-[#0284c7] rounded-3xl">
                       Download Now
