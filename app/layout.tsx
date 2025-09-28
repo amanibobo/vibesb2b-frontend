@@ -31,7 +31,7 @@ const ppEditorialNew = localFont({
 
 
 export const metadata: Metadata = {
-  title: "vibesB2B",
+  title: "vibesB2B - Vibe check the Zoom - 10x revenue",
   description:
     "vibeb2b is a platform for buying and selling products and services.",
 };
