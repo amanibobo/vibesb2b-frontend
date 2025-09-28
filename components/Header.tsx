@@ -50,7 +50,7 @@ export default function Header() {
             </section>
           </main>
           <div className="flex justify-center px-4 sm:px-6 lg:px-[125px] pb-12">
-            <VideoPlayer src="/Untitled.mp4" />
+            <VideoPlayer src="/Untitled (1).mp4" />
           </div>
         </div>
       </div>
