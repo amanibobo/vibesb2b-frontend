@@ -11,12 +11,9 @@ export default function Home() {
       <Navbar />
       <ScrollProvider>
         <Header />
-        <MaxWidthWrapper>
-        <Features />
-        </MaxWidthWrapper>
       </ScrollProvider>
 
-      <MaxWidthWrapper className="">
+      <MaxWidthWrapper className="mt-10">
         <Footer />
       </MaxWidthWrapper>
     </>
