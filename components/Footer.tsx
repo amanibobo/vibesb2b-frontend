@@ -28,7 +28,7 @@ export default function Footer() {
           ))}
         </div>
         <span className="text-sm">
-          &copy; {new Date().getFullYear()} Voltient.
+          &copy; {new Date().getFullYear()} vibesB2B.
         </span>
       </div>
         </div>

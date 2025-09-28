@@ -23,7 +23,7 @@ export default function Grid() {
       <div className="flex flex-col items-center gap-16 sm:gap-20">
       
         <div>
-          <h2 className="text-center text-base/7 font-semibold text-[#059669]">
+          <h2 className="text-center text-base/7 font-semibold text-[#0ea5e9]">
             Features
           </h2>
           <Heading>Stay ahead with real-time insights</Heading>

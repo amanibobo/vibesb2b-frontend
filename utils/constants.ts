@@ -1,5 +1,6 @@
 import {
     LinkedInLogo,
+    DevpostLogo,
   } from "../components/ui/icons";
   
   export const footerSections = [
@@ -70,7 +71,7 @@ import {
 
 export const socialMediaLinks = [
     {
-      icon: LinkedInLogo,
-      link: "https://www.linkedin.com/company/voltient/posts/?feedView=all",
+      icon: DevpostLogo,
+      link: "https://devpost.com/voltient",
     },
   ];

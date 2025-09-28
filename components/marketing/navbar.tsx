@@ -8,6 +8,7 @@ import Icons from "../global/icons";
 import Wrapper from "../global/wrapper";
 import { Button } from "../ui/button";
 import MobileMenu from "./mobile-menu";
+import Image from "next/image";
 
 const Navbar = () => {
 
@@ -40,16 +41,17 @@ const Navbar = () => {
                 <Wrapper className="backdrop-blur-lg rounded-xl lg:rounded-2xl border border-[rgba(124,124,124,0.2)] px- md:px-2 flex items-center justify-start">
                     <div className="flex items-center justify-between w-full sticky mt-[7px] lg:mt-auto mb-auto inset-x-0">
                         <div className="flex items-center flex-1 lg:flex-none pl-1">
-                            <Link href="/" className="text-lg font-semibold text-foreground">
-                                <Icons.icon className="w-auto h-5" />
+                            <Link href="/" className="flex items-center text-lg font-semibold text-foreground">
+                                <Image src="/Beach_Ball_PNG_Clip_Art_Image-2055932628.png" alt="vibeb2b" width={20} height={100} />
+                                <span className="ml-2">vibesB2B</span>
                             </Link>
-                            
+
                         </div>
                         <div className="">
                                 <>
-                                    <Button size="sm" asChild className="hidden sm:flex bg-[#059669] hover:bg-[#047857]">
-                                        <Link href="/auth/signup">
-                                            Book a Demo
+                                    <Button size="sm" asChild className="hidden sm:flex bg-[#0ea5e9] hover:bg-[#0284c7]">
+                                        <Link href="/vibesb2b.dmg" download>
+                                            Download Now
                                             <ArrowRightIcon className="w-4 h-4 ml-2 hidden lg:block" />
                                         </Link>
                                     </Button>

@@ -33,7 +33,7 @@ export default function UseCases() {
   return (
     <div className="w-full mx-auto">
        <div>
-          <h2 className="text-center text-base/7 font-semibold text-[#059669]">
+          <h2 className="text-center text-base/7 font-semibold text-[#0ea5e9]">
             Use Cases
           </h2>
           <Heading className="text-3xl font-semibold text-center mb-16"> Use Cases of Voltient</Heading>
