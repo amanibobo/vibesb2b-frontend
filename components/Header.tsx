@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import { useScroll } from "./ui/scroll-context";
 import Banner from "./Banner";
 import Link from "next/link";
@@ -50,7 +49,7 @@ export default function Header() {
             </section>
           </main>
           <div className="flex justify-center px-4 sm:px-6 lg:px-[125px] pb-12">
-            <VideoPlayer src="/Untitled (1).mp4" />
+            <VideoPlayer src="/vuber.mp4" />
           </div>
         </div>
       </div>
