@@ -72,6 +72,6 @@ import {
 export const socialMediaLinks = [
     {
       icon: DevpostLogo,
-      link: "https://devpost.com/voltient",
+      link: "https://devpost.com/software/vibesb2b",
     },
   ];
