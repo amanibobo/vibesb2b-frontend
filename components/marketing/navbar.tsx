@@ -50,7 +50,7 @@ const Navbar = () => {
                         <div className="">
                                 <>
                                     <Button size="sm" asChild className="hidden sm:flex bg-[#0ea5e9] hover:bg-[#0284c7]">
-                                        <Link href="/vibesb2b.dmg" download>
+                                        <Link href="/VibeB2B-1.0.0-arm64.dmg" download>
                                             Download Now
                                             <ArrowRightIcon className="w-4 h-4 ml-2 hidden lg:block" />
                                         </Link>
