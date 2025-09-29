@@ -47,7 +47,13 @@ const Navbar = () => {
                             </Link>
 
                         </div>
-                        <div className="">
+                        <div className="flex items-center gap-3">
+                                <Button size="sm" asChild className="hidden sm:flex bg-[#e0f2fe] hover:bg-[#bae6fd] text-[#0369a1]">
+                                    <Link href="https://deepwiki.com/atoniolo76/vibeb2b/1-overview" target="_blank" className="flex items-center">
+                                        <Image src="/devin.png" alt="DeepWiki" width={16} height={16} />
+                                        <span className="">deepwiki</span>
+                                    </Link>
+                                </Button>
                                 <>
                                     <Button size="sm" asChild className="hidden sm:flex bg-[#0ea5e9] hover:bg-[#0284c7]">
                                         <Link href="/VibeB2B-1.0.0-arm64.dmg" download>
