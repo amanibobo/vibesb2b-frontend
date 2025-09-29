@@ -34,6 +34,24 @@ export const metadata: Metadata = {
   title: "vibesB2B - Vibe check the Zoom - 10x revenue",
   description:
     "vibeb2b is a platform for buying and selling products and services.",
+  openGraph: {
+    title: "vibesB2B - Vibe check the Zoom - 10x revenue",
+    description: "vibeb2b is a platform for buying and selling products and services.",
+    images: [
+      {
+        url: "/og/ogIMAGE.png",
+        width: 1200,
+        height: 630,
+        alt: "vibesB2B - Vibe check the Zoom - 10x revenue",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "vibesB2B - Vibe check the Zoom - 10x revenue",
+    description: "vibeb2b is a platform for buying and selling products and services.",
+    images: ["/og/ogIMAGE.png"],
+  },
 };
 
 export default function RootLayout({
