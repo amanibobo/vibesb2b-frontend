@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { useScroll } from "./ui/scroll-context";
 import Banner from "./Banner";
 import Link from "next/link";
-// import VideoPlayer from "./ui/video-player"; // Replaced with YouTube embed
+import VideoPlayer from "./ui/video-player";
 
 export default function Header() {
   const { scrollToDemo } = useScroll();
@@ -40,7 +40,7 @@ export default function Header() {
                       className="rounded-3xl h-10"
                       variant="outline"
                     >
-                      Devpost - HackGT12
+                      Devpost - HackGT 12
                     </Button>
                     </Link>
                   </div>
@@ -50,16 +50,7 @@ export default function Header() {
           </main>
           <div className="flex justify-center px-4 sm:px-6 lg:px-[125px] pb-12">
             <div className="w-full max-w-4xl">
-              <div className="relative w-full h-0 pb-[56.25%] overflow-hidden rounded-xl shadow-[0_0_20px_rgba(0,0,0,0.2)]">
-                <iframe
-                  className="absolute top-0 left-0 w-full h-full"
-                  src="https://www.youtube.com/embed/oRyB2NW-Wkc?rel=0&modestbranding=1"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                />
-              </div>
+              <VideoPlayer src="/vuber.mp4" />
             </div>
           </div>
         </div>
