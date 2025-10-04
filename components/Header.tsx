@@ -29,7 +29,7 @@ export default function Header() {
                     </p>
                   </div>
                   <div className="flex flex-col gap-3 min-[400px]:flex-row mt-8">
-                    <Link href="/VibeB2B-1.0.0-arm64.dmg" download>
+                    <Link href="/Tonibot.dmg" download>
                     <Button className="h-10 gap-2 bg-[#0ea5e9] hover:bg-[#0284c7] rounded-3xl">
                       Download Now
                     </Button>
